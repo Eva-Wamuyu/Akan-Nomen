@@ -20,7 +20,7 @@
 }
 
 .warning{
-  color: red;
+  color: #e91616;
   display: none;
   
 }
@@ -43,15 +43,57 @@
   text-align: center;
   border-radius: 10px;
   color: white;
-  background-color: black;
+  background-color: rgba(0,0,0,0.85);
   position: absolute;
   left: 15.5vw;
   top: 16.5vh;
-  display: none;
+  /* display: none; */
   
 }
 #outName{
   color: #46D9E2;
   margin-top: 12px;
   font-weight: 900;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: rgba(0,0,0,0.75);
+  width: 95vw;
+  left: 2.5vw;
+ 
+}
+.footer a{
+  color: #46D9E2;
+}
+
+@media only screen and (min-width:767px) {
+  *{
+    font-size: large;
+  }
+  .overlay{
+    width: 40vw;
+    height: 65vh;
+    margin: auto;
+
+  }
+  .overlay p{
+    width: 30vw;
+    margin: auto;
+  }
+  .output{
+    width: 35vw;
+    left: 33vw;
+    padding: 48px;
+  }
+  #birthDate{
+    font-size: x-large;
+  }
+  .mt-5{
+    margin-top: 2px !important;
+  }
+
+ 
+  
 }
