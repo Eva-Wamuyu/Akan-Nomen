@@ -30,7 +30,7 @@
   border-radius: 10px;
   color: white;
   width: 95vw;
-  height: 60vh;
+  height: 62vh;
 }
 .btn{
   background-color: #46D9E2;
@@ -47,7 +47,11 @@
   position: absolute;
   left: 15.5vw;
   top: 16.5vh;
+  display: none;
   
-  
-
+}
+#outName{
+  color: #46D9E2;
+  margin-top: 12px;
+  font-weight: 900;
 }
