@@ -16,12 +16,13 @@ With acitve internet connection, click [here](https://eva-wamuyu.github.io/Akan-
 https://eva-wamuyu.github.io/Akan-Nomen/
 
 ## BDD
-| Behavior                                               | Input Example              | Output Example                |
-|--------------------------------------------------------|----------------------------|-------------------------------|
-| Checks whether the user has chosen their date of birth | No date selected           | An error showing its required |
-| Checks whether the gender is chosen                    | No gender selected         | An error showing its required |
-| Checks the Akan Name                                   | Date selected, gender male | An Akan boy's name            |
-    
+
+| Behavior                                               | Input Example                | Output Example                |
+|--------------------------------------------------------|------------------------------|-------------------------------|
+| Checks whether the user has chosen their date of birth | No date selected             | An error showing its required |
+| Checks whether the gender is chosen                    | No gender selected           | An error showing its required |
+| Checks the Akan Name                                   | Date selected, gender male   | An Akan boy's name            |
+| Checks the Akan Name                                   | Date selected, gender female | An Akan girls's name          |
 
 
 ## Technologies used
