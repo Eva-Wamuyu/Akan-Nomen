@@ -14,7 +14,7 @@
   <div class="header">
     <h1 class="h1">Akan Nomen</h1>
   </div>
-  <div class="container border pb-5">
+  <div class="container border-top pb-5">
   <div class="overlay mt-5">
     <div class="description p-3">
       <p>
@@ -28,7 +28,7 @@
     </div>
     <hr>
     <div class="form text-center">
-      <form action="">
+      <form action="" id="theform">
       
       <div class="">
       <label for="birthDate">Select your birth date</label><br>
@@ -77,8 +77,10 @@
 
 
 
-  <div class="output">
-    <p>
+  <div class="output" id="output">
+    <button type="button" class="btn-close btn-close-white float-end m-2" aria-label="Close" id="closeButton"></button>
+
+    <p class="mt-5">
       Your Akan Name is:
       <br>
       <span id="outName"> </span>
@@ -89,7 +91,10 @@
 
 
 
-
+<div class="footer">
+  <p>Background photo credits:</p>
+  <a href="https://commons.wikimedia.org/wiki/File:State_Gifts_Presentation_Sword.JPG">Gerald R. Ford Presidential Museum</a>, Public domain, via Wikimedia Commons
+</div>
 
 
   <script src="./resources/script.js"></script>
