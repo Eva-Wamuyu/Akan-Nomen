@@ -47,7 +47,7 @@
   position: absolute;
   left: 15.5vw;
   top: 16.5vh;
-  /* display: none; */
+  display: none; 
   
 }
 #outName{
@@ -68,7 +68,8 @@
   color: #46D9E2;
 }
 
-@media only screen and (min-width:767px) {
+
+@media only screen and (min-width:920px) {
   *{
     font-size: large;
   }
@@ -97,3 +98,8 @@
  
   
 }
+
+
+
+
+
