@@ -7,9 +7,30 @@
   background-image: url("./State_Gifts_Presentation_Sword.jpeg");
   background-position: center;
 }
+.header{
+  position: relative;
+  top: 24px;
+  width: fit-content;
+  padding: 12px;
+  margin: auto;
+  background-color: white;
+}
 
 .warning{
   color: red;
   display: none;
   
+}
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  width: 95vw;
+  height: 85vw;
+}
+.btn{
+  background-color: #46D9E2;
+ 
+
 }
