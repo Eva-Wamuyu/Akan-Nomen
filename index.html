@@ -10,41 +10,66 @@
   <link rel="stylesheet" href="./resources/styles.css">
   <title>Akan</title>
 </head>
-<body>
+<body class="body">
   <div class="header">
-    <h1>Akan Nomen</h1>
+    <h1 class="h1">Akan Nomen</h1>
   </div>
-  <div class="overlay">
-    <div class="description">
+  <div class="container border pb-5">
+  <div class="overlay mt-5">
+    <div class="description p-3">
       <p>
-
+           The Akan community has a unique naming method.
+           Their names are determined by the day in which one is born and the gender.
       </p>
-      <p class="procedure">
-
+      <p class="procedure text-center">
+            Interested in knowing your Akan name? <br>
+            Select your date of birth, gender and hit the button.
       </p>
     </div>
     <hr>
-    <div class="form">
-      <p>Date of Birth:</p>
-      <label for="birthDate">Select your birth date</label>
-      <input type="date" name="date" id="birthDate">
+    <div class="form text-center">
+      <form action="">
       
-      <p>Gender:</p>
+      <div class="">
+      <label for="birthDate">Select your birth date</label><br>
+      <input type="date" name="date" id="birthDate">
 
+      <p class="warning" id="dateWarning">
+        Please choose your birth date*
+      </p>
+      </div>
+     
+      
+      
+      
+      <div class="mt-5">
+        <p>
+          Select gender
+        </p>
       <input type="radio" name="gender" id="male">
       <label for="male">male</label><br>
-     
-
+      
       <input type="radio" name="gender" id="female"> 
       <label for="female">Female</label><br>
+
+      <p class="warning" id="genderWarning">
+        Please select your gender*
+      </p>
       
-    
-      <button type="submit" id="submit">See Name</button>
+      </div>
+     
+
+      <button id="submit"class="btn mt-5 mx-auto" value="See Name">
+       See Name
+      </button>
+      
+      </form>
       
 
     </div>
 
 
+  </div>
   </div>
 
  
@@ -52,7 +77,13 @@
 
 
 
-
+  <div class="output">
+    <p>
+      Your Akan Name is:
+      <br>
+      <span id="outName"> </span>
+    </p>
+  </div>
 
 
 
