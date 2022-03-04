@@ -65,4 +65,6 @@ button.addEventListener("click",()=>{
 document.getElementById("closeButton").addEventListener("click",()=>{
   document.getElementById("output").style.display = "none";
   document.getElementById("theform").reset();
+  dateWarning.style.display = "none";
+  genderWarning.style.display = "none";
 });
