@@ -10,24 +10,20 @@ let genderWarning = document.getElementById("genderWarning");
 let dateWarning = document.getElementById("dateWarning");
 
 
+const displayName = document.getElementById("outName");
 
 
-// console.log(birthDate.length);
+
+
+
 
 
 button.addEventListener("click",()=>{
-  event.preventDefault()
+  event.preventDefault();
 
   let birthDate = document.getElementById("birthDate").value;
-  console.log(birthDate);
-  
-  
 
-
-
-   
-
-  //validate gender
+ 
   if(birthDate == ""){
 
     dateWarning.style.display = "block";
@@ -40,32 +36,33 @@ button.addEventListener("click",()=>{
 
   }
   else{
-
     
     var specday = new Date(birthDate);
      var day = specday.getDay();
     if(genderMale.checked == true){
 
       theAkanName = maleNames[day];
-      console.log(theAkanName);
+      displayName.textContent = theAkanName;
+      document.getElementById("output").style.display = "block";
+
        
        
     }
     else{
       theAkanName = femaleNames[day];
-      console.log(theAkanName);
+      displayName.textContent = theAkanName;
+      document.getElementById("output").style.display = "block";
 
     }
-      
-      
-
-
-
-
+  
   }
+ 
   
-  
+});
 
 
-
+//output close button
+document.getElementById("closeButton").addEventListener("click",()=>{
+  document.getElementById("output").style.display = "none";
+  document.getElementById("theform").reset();
 });
