@@ -26,12 +26,14 @@ button.addEventListener("click",()=>{
  
   if(birthDate == ""){
 
-    dateWarning.style.display = "block";
+    // dateWarning.style.display = "block";
+    alert("please select birthdate");
     
   }
   else if(genderFemale.checked == false && genderMale.checked== false){
 
-    genderWarning.style.display = "block";
+    // genderWarning.style.display = "block";
+    alert("Please select gender");
     
 
   }
