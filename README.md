@@ -1,4 +1,4 @@
-## Akan-Nomen
+# Akan-Nomen
 
 ### By Eva Wamuyu
 
